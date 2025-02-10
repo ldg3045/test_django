@@ -7,4 +7,4 @@ class TestMarket(models.Model):
     test_market_manager = models.CharField(max_length= 50)
     test_market_tell = models.CharField(max_length= 50)
     test_market_open = models.DateField(auto_now_add= True)
-    test_market_staff = models.IntegerField()
+    test_staff_num = models.IntegerField()

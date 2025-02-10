@@ -10,6 +10,4 @@ urlpatterns = [
     path("market_update/",views.market_update, name="market_update"), # 마켓 정보 수정 페이지
     path("market_delete/",views.market_delete, name="market_delete"), # 마켓 정보 삭제 페이지
     # include 함수를 사용하여 다른 앱의 urls.py 파일을 포함
-    path("customers/", include("customers.urls")), # 고객 정보 페이지
-    path("products/",include("products.urls")), # 제품 정보 페이지
 ]
