@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # add_my_app
+    'test_market', # 마켓
+    'customers', # 고객
+    'products', # 상품
+    
 ]
 
 MIDDLEWARE = [
